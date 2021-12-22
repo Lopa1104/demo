@@ -1,0 +1,1283 @@
+/*
+Theme Name:     MarketingOps
+Theme URI:      https://marketingops.com/
+Template:       hello-elementor
+Author:         CMSMinds
+Author URI:     https://marketingops.com/
+Description:    A custom theme built by the CMSMinds team.
+Version:        1
+License:        GNU General Public License v3.0 (or later)
+License URI:    https://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+
+@font-face {
+  font-family: 'futurabold';
+  src: url('fonts/futura_bold_font-webfont.woff2') format('woff2'),
+    url('fonts/futura_bold_font-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futurabook';
+  src: url('fonts/futura_book_font-webfont.woff2') format('woff2'),
+    url('fonts/futura_book_font-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futuraheavy';
+  src: url('fonts/futura_heavy_font-webfont.woff2') format('woff2'),
+    url('fonts/futura_heavy_font-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futuralight';
+  src: url('fonts/futura_light_font-webfont.woff2') format('woff2'),
+    url('fonts/futura_light_font-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'a_futuraroundregular';
+  src: url('fonts/futura_round-webfont.woff2') format('woff2'),
+    url('fonts/futura_round-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futura_thinnormal';
+  src: url('fonts/futura_thin-webfont.woff2') format('woff2'),
+    url('fonts/futura_thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansbold';
+  src: url('fonts/opensans-bold-webfont.woff2') format('woff2'),
+    url('fonts/opensans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansitalic';
+  src: url('fonts/opensans-italic-webfont.woff2') format('woff2'),
+    url('fonts/opensans-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanslight';
+  src: url('fonts/opensans-light-webfont.woff2') format('woff2'),
+    url('fonts/opensans-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('fonts/opensans-regular-webfont.woff2') format('woff2'),
+    url('fonts/opensans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url('fonts/opensans-semibold-webfont.woff2') format('woff2'),
+    url('fonts/opensans-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Futura LT Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Regular'), url('fonts/FuturaLT.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Book'), url('fonts/FuturaLT-Book.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Oblique'), url('fonts/FuturaLT-Oblique.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT BookOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT BookOblique'), url('fonts/FuturaLT-BookOblique.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Light'), url('fonts/FuturaLT-Light.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT CondensedLight';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondensedLight'), url('fonts/FuturaLT-CondensedLight.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT LightOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT LightOblique'), url('fonts/FuturaLT-LightOblique.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT CondensedLightObl';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondensedLightObl'), url('fonts/FuturaLT-CondensedLightObl.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Condensed'), url('fonts/FuturaLT-Condensed.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT CondensedOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondensedOblique'), url('fonts/FuturaLT-CondensedOblique.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT ExtraBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT ExtraBold'), url('fonts/FuturaLT-ExtraBold.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Bold'), url('FuturaLT-Bold.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT CondensedBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondensedBold'), url('fonts/FuturaLT-CondensedBold.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT CondensedExtraBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondensedExtraBold'), url('fonts/FuturaLT-CondensedExtraBold.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT ExtraBoldOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT ExtraBoldOblique'), url('fonts/FuturaLT-ExtraBoldOblique.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT BoldOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT BoldOblique'), url('FuturaLT-BoldOblique.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT CondExtraBoldObl';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondExtraBoldObl'), url('fonts/FuturaLT-CondExtraBoldObl.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT CondensedBoldOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT CondensedBoldOblique'), url('fonts/FuturaLT-CondensedBoldOblique.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT Heavy'), url('fonts/FuturaLT-Heavy.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura LT HeavyOblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Futura LT HeavyOblique'), url('fonts/FuturaLT-HeavyOblique.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'futura_ltbold';
+  src: url('fonts/futuralt-bold-webfont.woff2') format('woff2'),
+    url('fonts/futuralt-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "open_sansregular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #45474F;
+}
+
+
+
+.access_section .acs.elementor-widget:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.access_section .elementor-button {
+  width: 100%;
+}
+
+.eventhome.elementor-widget:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.professionalimg {}
+
+body .lefttext,
+body .rightbtn {
+  float: left !important;
+  width: 50% !important;
+  margin-bottom: 0 !important;
+}
+
+body .lefttext p {
+  margin-bottom: 0 !important;
+}
+
+.ourspnsor {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.headsign p,
+.headsign p a {
+  color: #45474F;
+  margin-bottom: 0;
+}
+
+.followustxt .elementor-social-icons-wrapper.elementor-grid:before {
+  content: 'Follow us on: ';
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  top: -9px;
+}
+
+.followustxt .elementor-widget-social-icons .elementor-grid {
+  text-align: left;
+}
+
+.relatedpostbg {}
+
+.relatedpostbg .elementor-post__read-more {
+  background: #45474F;
+  border-radius: 15px;
+  font-size: 16px;
+  line-height: 13px;
+  padding: 5px 10px;
+}
+
+.relatedpostbg .elementor-post__thumbnail__link {
+  display: none;
+}
+
+.relatedpostbg article .elementor-post__title {
+  background-image: url(images/Group226.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 30px;
+  width: 100%;
+  justify-content: center;
+  min-height: 233px;
+  text-align: center;
+}
+
+.relatedpostbg article .elementor-post__title a {
+  display: inline-block;
+  max-width: 170px;
+  width: 100%;
+}
+
+.relatedpostbg article:nth-child(2) .elementor-post__title {
+  background-image: url(images/Group225.png);
+}
+
+.relatedpostbg article:nth-child(3) .elementor-post__title {
+  background-image: url(images/Group224.png);
+}
+
+.relatedpostbg .elementor-post__meta-data {
+  text-align: right;
+  color: #000 !important;
+}
+
+.postsbg {}
+
+.postsbg .elementor-post-info__terms-list a {
+  background: #F0F2F3;
+  padding: 4px 10px;
+  border-radius: 14px;
+  font-size: 14px;
+}
+
+.elementor-location-single {
+  background-image: url(images/blurcircle1.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.postsbg .elementor-widget-theme-post-content h3 {
+  font-size: 22px;
+}
+
+.postsbg .elementor-widget-theme-post-content h2 {
+  font-size: 26px;
+}
+
+.postsbg .elementor-widget-theme-post-content h1 {
+  font-size: 28px;
+}
+
+.postsbg .elementor-widget-theme-post-content h4 {
+  font-size: 19px;
+}
+
+.postsbg .elementor-widget-theme-post-content h5 {
+  font-size: 16px;
+}
+
+.postsbg .elementor-widget-theme-post-content h6 {
+  font-size: 13px;
+}
+
+.postsbg .elementor-widget-theme-post-content ol,
+.postsbg .elementor-widget-theme-post-content ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: inside;
+}
+
+.profileheading {
+  margin-bottom: 0;
+}
+
+.profilfrm .pp-form-container #pp-registration-1.ppBuildScratch .pp-form-field-wrap input,
+.profilfrm .pp-form-container #pp-registration-1.ppBuildScratch .pp-form-field-wrap select,
+.profilfrm .pp-form-container #pp-registration-1.ppBuildScratch .pp-form-field-wrap textarea {
+  font-size: 14px;
+  border-color: #dbdbdb;
+  background: #ffffff;
+  color: #69717a;
+  height: 70px;
+  border-radius: 6px;
+}
+
+.profilfrm .pp-form-container #pp-registration-1.ppBuildScratch .pp-form-field-wrap .pp-form-material-icons {
+  color: #6D7B83;
+  margin-top: 25px;
+}
+
+.profilfrm #pp-registration-1-wrap.pp-form-container {
+  max-width: 100% !important;
+}
+
+.profilfrm .pp-form-container .pp-form-wrapper.ppBuildScratch {
+  padding: 0;
+}
+
+.profilfrm .pp-form-container .pp-form-wrapper.ppBuildScratch .pp-form-field-wrap {
+  padding-right: 0;
+}
+
+.profilfrm .pp-form-container #pp-registration-1.ppBuildScratch .pp-form-submit-button-wrap input[type="submit"] {
+  width: 178px !important;
+  height: 53px !important;
+  padding: 0;
+  border-radius: 25px !important;
+}
+
+.ppress-form-bottom-links {
+  display: none;
+}
+
+.membershiptable .elementor-column-gap-wide > .elementor-column > .elementor-element-populated {
+  padding: 20px;
+  border: 1px solid #707070;
+  margin: 18px;
+  position: relative;
+}
+
+.membershiptable .elementor-column-gap-wide > .elementor-column:nth-child(1) > .elementor-element-populated,
+.membershiptable .elementor-column-gap-wide > .elementor-column:nth-child(3) > .elementor-element-populated {
+  margin-top: 60px;
+}
+
+.membershiptable .elementor-widget-wrap > .elementor-element.elementor-widget-button {
+  position: absolute;
+  bottom: 40px;
+}
+
+.membershiptable .elementor-widget-button.elementor-widget:not(:last-child) {
+  margin-bottom: 0px;
+}
+
+p,
+ul {
+  margin-bottom: 1.5rem;
+}
+
+.single-post .elementor-heading-title,
+.single-post .elementor-post__title a {
+  font-family: 'futura_ltbold' !important;
+}
+
+.member-image img {
+  max-width: 460px;
+  width: 100%;
+}
+
+.proffesional-left .elementor-element-696450b .elementor-widget-wrap {
+  position: relative;
+  z-index: 2;
+}
+
+.proffesional-left .elementor-element-696450b .elementor-widget-wrap::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 80%;
+  background: rgba(255, 255, 255, 0.8);
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  box-shadow: 0px 40px 80px rgba(0, 0, 0, 0.05);
+  border-radius: 40px 0 0 40px;
+}
+
+.proffesional-left p {
+  margin-bottom: 0px;
+}
+
+.professional-wrap > .elementor-container.elementor-column-gap-default {
+  position: relative;
+  overflow: hidden;
+}
+
+.professional-wrap > .elementor-container.elementor-column-gap-default::after {
+  position: absolute;
+  background: url(https://marketingops.com/wp-content/uploads/2021/11/blurcircle1-1.png);
+  background-size: cover;
+  left: -145px;
+  top: -241px;
+  content: "";
+  width: 466px;
+  height: 534px;
+}
+
+.professional-img img {
+  max-width: 300px;
+  width: 100%;
+  position: relative;
+  bottom: -15px;
+}
+
+.become-member ul {
+  list-style: none;
+}
+
+.gradient-text {
+  color: #FD4B7A;
+  background: -webkit-linear-gradient(-90deg, #FD4B7B, #4d016e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*
+.marketing-prof::before {
+	background-image: url(https://marketingops.com/wp-content/uploads/2021/11/blurcircle1-1.png);
+	position: absolute;
+	content: "";
+	width: 300px;
+	height: 344px;
+	left: -100px;
+	top: -100px;
+	background-size: cover;
+}*/
+
+.membershiptable .tablepress td {
+  vertical-align: middle;
+}
+
+.membershiptable .tablepress tbody tr td {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  padding: 15px;
+}
+
+.membershiptable .tablepress tbody tr td:nth-child(1) {
+  font-size: 14px !important;
+  line-height: 19px !important;
+  text-align: left;
+}
+
+.membershiptable .tablepress tbody tr td:nth-child(1) {
+  border-radius: 12px 0 0 12px;
+}
+
+.membershiptable .tablepress tbody tr td:last-child {
+  border-radius: 0 12px 12px 0;
+}
+
+.Yellow {
+  background: #FFB83F;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.grey {
+  background: #6D7B8333;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.membershiptable .column-3 {
+  background: #F1F3F4 !important;
+  padding: 15px;
+  color: #4D00AE;
+  font-weight: 600;
+}
+
+.membershiptable tfoot tr th {
+  padding: 30px;
+}
+
+.membershiptable tfoot tr th.column-3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  background-color: transparent !important;
+  background-image: linear-gradient(100deg, #FD4B7A 0%, #4D00AE 100%) !important;
+}
+
+.membershiptable thead .column-3 {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  border-radius: 40px 40px 0px 0px;
+}
+
+.membershiptable thead th {
+  text-align: center;
+  font-size: 19px;
+  line-height: 26px;
+  font-family: "Futura LT", Open sans-serif;
+}
+
+.membershiptable thead th.column-3 {
+  color: #FD4B7A
+}
+
+.membershiptable tfoot th:not(:nth-child(1)) {
+  font-size: 16px;
+  line-height: 13px;
+  background: #292A30 !important;
+  border-radius: 40px;
+  /* margin: 10px; */
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  /* height: 20px; */
+}
+
+/*.relatedpostbg{display:none;}
+.single-post .relatedpostbg{display:block;}*/
+.blogp .elementor-post__read-more {
+  background: #45474F;
+  border-radius: 30px;
+  padding: 7px 20px;
+}
+
+.testimonial-wrap {
+  position: relative;
+  box-shadow: 1px 3px 8px 1px rgb(0 0 0 / 5%);
+}
+
+.testimonial-wrap::after {
+  position: absolute;
+  content: "";
+  box-shadow: 20px 20px 0px rgb(0 0 0 / 2%);
+  border-radius: 40px;
+  width: 330px;
+  height: 280px;
+  background: #fff;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#tablepress-1 caption {
+  display: none;
+}
+
+
+.research-wrap > .elementor-container.elementor-column-gap-wide {
+  margin: 0 -20px;
+}
+
+
+#slider-2-slide-2-layer-31,
+#slider-2-slide-2-layer-30 {
+  display: none !important;
+}
+
+.membershiptable .tablepress tfoot th,
+.membershiptable .tablepress thead th {
+  background-color: transparent;
+  border: none;
+}
+
+.membershiptable .tablepress tbody td,
+.membershiptable .tablepress tfoot th {
+  border-top: 0px solid #ddd;
+}
+
+.eachjobdetail {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eachjobdetail .company_logo {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.comdetails h3 {
+  text-align: left;
+  font-size: 25px;
+  line-height: 35px;
+  font-family: "Futura LT", Open sans-serif;
+}
+
+.jobmeta {
+  font-size: 16px;
+  line-height: 21px;
+  list-style: none;
+  display: flex;
+  text-align: left;
+  padding: 0;
+}
+
+.jobmeta li {
+  margin-right: 20px;
+}
+
+.eachjobdetail .application_button.button {
+  border: 20px solid #F8F9F9;
+  background: #292A30;
+  color: #fff;
+  border-radius: 46px;
+  font-size: 16px;
+  line-height: 13px;
+  padding: 15px 40px;
+}
+
+ul.jobcats {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+ul.jobcats li {
+  margin-right: 20px;
+  background: #F0F2F3;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: #FD4B7A;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.job_description {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #F1F3F4 0%, #F1F3F400 100%);
+  border-radius: 50px;
+  padding: 0px 50px;
+  margin-top: 50px !important;
+}
+
+.abtbottom {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.abtxt em {
+  text-align: right;
+}
+
+
+.fjobs .widget_featured_jobs .job_listings {
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+}
+
+.fjobs .job_listings li.job_listing.job_position_featured {
+  flex-grow: 1;
+  width: calc(33% - 20px);
+  ;
+  border: 1px solid #E7EFEFBF;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.fjobs .job_listings li.job_listing.job_position_featured > a {
+  background: transparent !important;
+  padding: 0;
+}
+
+.fjobs .job_listings li.job_listing.job_position_featured img.company_logo {
+  position: static;
+  display: block;
+  float: none;
+  text-align: center;
+  margin: 0 auto;
+  border: 15px solid #F5F7F7;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.fjobs .job_listings li.job_listing.job_position_featured .position {
+  float: none;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.fjobs .job_listings li.job_listing.job_position_featured ul.meta {
+  float: none;
+  padding: 0;
+  display: flex;
+  text-align: left;
+  width: 100%;
+  justify-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 22px;
+  color: #45474F;
+}
+
+.fjobs .job_listings li.job_listing.job_position_featured ul.meta .company {
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.fjobs .job_listings li.job_listing.job_position_featured .position h3 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #45474F;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.fjobs .job_listings li.job_listing.job_position_featured .salary {
+  font-size: 16px;
+  line-height: 22px;
+  color: #45474F;
+  margin: 13px auto;
+  text-align: center;
+}
+
+.searched_job_list ul.job_listings li.job_listing {
+  border: 1px solid #E7EFEFBF;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.searched_job_list ul.job_listings li.job_listing > a {
+  background: transparent;
+}
+
+.searched_job_list ul.job_listings {
+  border: none;
+}
+
+.searched_job_list ul.job_listings img.company_logo {
+  max-width: 45px;
+  height: auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.searched_job_list ul.job_listings .firstrow {
+  display: table;
+  width: 100%;
+}
+
+.searched_job_list ul.job_listings .firstrow .comdetail,
+.searched_job_list ul.job_listings .firstrow .all_jobtypes {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.searched_job_list ul.job_listings .firstrow .all_jobtypes {
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+.searched_job_list ul.job_listings .firstrow .all_jobtypes li {
+  background: #F0F2F3;
+  color: #4D00AE;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 2px 20px;
+  border-radius: 5px;
+  margin: 0 10px 5px 0px;
+}
+
+.searched_job_list ul.job_listings .firstrow .all_jobtypes li:nth-child(2n) {
+  color: #FD4B7A;
+}
+
+.searched_job_list ul.job_listings .firstrow .comdetail a {
+  background: none;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #45474F;
+  padding: 0 15px;
+}
+
+.searched_job_list ul.job_listings .firstrow .jobcatx a {
+  background: none;
+  font-size: 16px;
+  line-height: 21px;
+  color: #45474F;
+  padding: 0 15px;
+}
+
+.searched_job_list ul.job_listings .firstrow .comdetail h3 {
+  margin: 0 0 7px 0;
+}
+
+.job_detail_section {
+  padding: 30px 40px;
+}
+
+.job_detail_section .jobsmeta {
+  float: none;
+  padding: 0;
+  display: flex;
+  text-align: left;
+  width: 100%;
+  justify-items: center;
+  list-style: none;
+  font-size: 16px;
+  line-height: 22px;
+  color: #45474F;
+}
+
+.job_detail_section .jobsmeta li {
+  margin-right: 10px;
+}
+
+.job_detail_section .jobexcerpt {
+  font-size: 14px;
+  line-height: 19px;
+  margin: 30px 0;
+}
+
+.substxt {
+  float: left;
+  width: 35%;
+  color: #fff;
+}
+
+.subfooter .wpcf7-form-control-wrap.email {
+  float: left;
+  width: 35%;
+}
+
+.subfooter .wpcf7-form-control.wpcf7-submit {
+  float: left;
+}
+
+
+
+
+.card-content{
+    display: flex;
+    align-items: center;
+}
+.card-content .comlogo{
+    background: #F1F3F4;
+    padding: 15px;
+    border-radius: 50%;
+}
+.card-content .comlogo img{
+	width:45px;
+	height:45px;
+	max-width: none;
+}
+.compdetail h3{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 4px;
+}
+.compdetail{
+	margin: 0 15px;	
+}
+.hrow {
+    width: 100%;
+    margin: 0 auto;
+	flex-wrap: wrap;
+}
+.hrow .slick-list, .hrow .slick-dots{
+    flex: 0 0 100%;
+}
+.hrow .slick-dots li{
+	margin:0 5px;
+}
+.hrow .slick-dots li button{
+	background:#F5F7F7;
+	width:20px;
+	height:20px;
+	font-size:0;
+	border:1px solid #E7EFEF;
+	padding: 0;
+    border-radius: 50%;
+}
+.hrow .slick-dots{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.fjobs .widget_featured_jobs>h5{
+	font-size:25px;
+	line-height:35px;
+}
+.jobsearch .elementor-search-form__submit, .jobsearch .elementor-search-form__submit:hover, .jobsearch .elementor-search-form__submit:active{
+    margin: 20px;
+    padding: 7px 50px !important;
+    border-radius: 20px;
+}
+.single-job_listing header.page-header{
+    display: none;
+}
+.job_banner img{
+    border-radius: 0 0 100px;
+}
+.job_banner{
+    margin-bottom: 50px;
+}
+
+.custom-banner .elementor-widget-wrap {
+  padding-top: 0 !important;
+}
+
+.section_box_1 .elementor-background-overlay {
+  top: -170px;
+  z-index: 3;
+}
+
+.section_box_1 .section_box_1_box .elementor-button-link {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+
+/*********************************** post newlettern  *********************************/
+
+/*.posts-newsletter {
+  position: relative;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.posts-newsletter:after {
+  content: "";
+  background: linear-gradient(90deg, #FFB83F 0%, #FD4B7A 55%, #4D00AE 100%);
+  border-top-right-radius: 302px;
+  border-bottom-right-radius: 302px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  left: -20%;
+  width: 100%;
+}*/
+
+.posts-newsletter form {
+  position: relative;
+  z-index: 2;
+}
+
+.posts-newsletter form p {
+  margin-bottom: 2px;
+}
+
+.posts-newsletter form label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 26px;
+  color: #FFF;
+  font-family: open_sansbold;
+  justify-content: center;
+}
+
+.posts-newsletter form label input[type=email] {
+  max-width: 300px;
+  border-radius: 100px;
+  border: none;
+  margin-left: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #242730;
+  font-size: 14px;
+  padding: 17px 65px 17px 20px;
+  font-family: "open_sansregular";
+}
+
+.posts-newsletter form label input[type=submit] {
+  width: 100%;
+  max-width: 135px;
+  border-radius: 100px;
+  margin-left: -50px;
+  background-color: #fff;
+  border-color: #fff;
+  color: #45474F;
+  font-family: "open_sansregular";
+  padding: 15px 10px;
+}
+
+/*****************************************************/
+.searchjobs .job_filters{
+    float: left;
+    width: 35%;
+}
+.searchjobs .job_listings ul.job_listings{
+    float: right;
+    width: 60%;
+}
+.searchjobs .job_filters .job_types li{
+    float: none;
+}
+.searchjobs nav.job-manager-pagination{
+    float: none;
+    clear: both;
+}
+.searchjobs .search_submit{display:none;}
+/***************************************/
+
+.footer-newsletter {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: -7%;
+  padding: 50px 0 70px;
+  margin-top: 100px;
+}
+
+.footer-newsletter:after {
+  content: "";
+  background: linear-gradient(90deg, #FFB83F 0%, #FD4B7A 55%, #4D00AE 100%);
+  border-top-right-radius: 302px;
+  border-bottom-right-radius: 302px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  left: -20%;
+  width: 100%;
+}
+
+.footer-newsletter form {
+  position: relative;
+  z-index: 2;
+}
+
+.footer-newsletter form p {
+  margin-bottom: 2px;
+}
+
+.footer-newsletter form label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 26px;
+  color: #FFF;
+  font-family: open_sansbold;
+  justify-content: start;
+}
+
+.footer-newsletter form label input[type=email] {
+  max-width: 300px;
+  border-radius: 100px;
+  border: none;
+  margin-left: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #242730;
+  font-size: 14px;
+  padding: 17px 65px 17px 20px;
+  font-family: "open_sansregular";
+}
+
+.footer-newsletter form label input[type=submit] {
+  width: 100%;
+  max-width: 135px;
+  border-radius: 100px;
+  margin-left: -50px;
+  background-color: #fff;
+  border-color: #fff;
+  color: #45474F;
+  font-family: "open_sansregular";
+  padding: 15px 10px;
+}
+
+.footer-section .elementor-shape.elementor-shape-top path {
+  fill: transparent !important;
+}
+
+@media only screen and (max-width: 1400px) {
+  .footer-newsletter {
+    margin-bottom: 9%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .footer-newsletter::after {
+    background: linear-gradient(90deg, #FFB83F -28.92%, #FD4B7A 35.54%, #4D00AE 100%);
+    left: 0;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .footer-newsletter {
+    padding: 50px 0 120px;
+    margin-bottom: -12%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-newsletter {
+    padding: 20px 0 75px;
+    margin-bottom: -13%;
+  }
+
+  .footer-newsletter form label {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .footer-newsletter form label span {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  .footer-newsletter form label input[type="email"] {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .footer-newsletter form label input[type="email"] {
+    max-width: 220px;
+    padding: 17px 55px 17px 20px;
+  }
+
+  .footer-newsletter form label input[type="submit"] {
+    max-width: 110px;
+  }
+}
